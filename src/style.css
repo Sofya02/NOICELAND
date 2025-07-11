@@ -1,0 +1,43 @@
+@import "tailwindcss";
+/*@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";*/
+
+@theme{
+
+  --color-sooty: #141414;
+  --color-gray60:#999999;
+  --color-gray40:#666666;
+  --color-grayL:#E6E6E6;
+  --color-grayK:#4D4D4D;
+
+
+  --text-xxs:10px;
+  --text-xlg:19px;
+
+
+  --tracking-1px:1px;
+  --tracking-tight1:-0.48px;/*0.03em*/
+
+
+  --leading-normal:12px;
+  --leading-mid:16px;
+  --leading-mb:24px;
+  --leading-big:36px;
+
+
+}
+
+@layer base {
+  .font-libre-franklin {
+    font-family: 'Libre Franklin', sans-serif;
+  }
+  
+  .font-source-serif {
+    font-family: 'Source Serif 4', serif;
+  }
+  
+  .font-tenor-sans {
+    font-family: 'Tenor Sans', sans-serif;
+  }
+}
